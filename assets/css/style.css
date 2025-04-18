@@ -94,33 +94,38 @@ a {
 }
 
 
-.texListItem{
-    background-color: #eaeaea;
-    text-align: center;
-    width: 30%;
-    margin: 40px 0;
-    
+article {
+
+    background-color: #333;
+    padding: 20px 10px;
+
 }
 
 .texList{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-    background-color: #333;
-    width:100%;
-    gap: 20px;
-    padding: 5px 300px;
+    align-content: center;
+    gap: 20px;    
 
+}
+
+.texListItem{
+
+    background-color: #eaeaea;
+    width: 20%; 
+    text-align: center;
 }
 
 .headerListItem{
 
-    padding-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 40px 20px;
 }
 
 .pListItem{
 
-    padding: 50px 20px;
+    margin: 40px 20px;
 }
+
