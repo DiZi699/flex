@@ -1,0 +1,57 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 250px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+header{
+
+ background-image: url(./../pictures/showcase.jpg);   
+ background-size: cover;
+ background-position: 50% 50%;
+ background-color: #333;
+ min-height: 450px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ 
+}
+
+.buttomReadMore{
+    background-color: #333;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    margin: 15px;
+}
+
+.headerTextPhone {
+
+    background-color: #333;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+h1{
+
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.headerParagraph{
+
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
