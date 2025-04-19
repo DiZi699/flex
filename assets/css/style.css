@@ -129,3 +129,26 @@ article {
     margin: 40px 20px;
 }
 
+.needs{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.headNeeds{
+
+ font-size: 1.5rem;
+ font-weight: bold;
+ margin: 50px auto;
+}
+
+.parNeeds{
+
+    margin-bottom: 50px;
+    width: 75%;
+    text-align: center;
+}
+
